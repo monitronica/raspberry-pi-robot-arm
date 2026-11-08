@@ -94,9 +94,4 @@ Open `http://<raspberry-pi-hostname>:8080/` for the optional MJPEG view. Do not 
 - [Safety](docs/SAFETY.md)
 - [Experiments](docs/EXPERIMENTS.md)
 
-## Repository policy
-
-Hardware behavior is intentionally left unchanged. Experimental motion files are retained for reference, clearly separated in the documentation, and should not be used as production entry points. Logs, media captures, virtual environments, credentials, keys, and local network configuration are excluded by `.gitignore`.
-
-No license is declared in this snapshot. Add a `LICENSE` file before inviting reuse if you want to grant explicit open-source permissions.
 
