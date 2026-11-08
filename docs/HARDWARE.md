@@ -11,6 +11,24 @@
 | Framebuffer LCD | Displays the mirrored local preview through writable `/dev/fb0`; direct output requires 16 bpp plus readable size/stride metadata |
 | External servo supply | Approximately 7.9 V / 10 A for this build; powers the servos independently of the Pi logic rail |
 
+## Physical hardware reference
+
+<table>
+  <tr>
+    <td align="center"><img src="images/hiwonder-servos.jpg" alt="Hiwonder servos installed in the arm" width="360"><br><sub>Hiwonder servos installed in the arm structure.</sub></td>
+    <td align="center"><img src="images/lfd06-servo.jpg" alt="Servo marked LFD-06 installed at the arm" width="360"><br><sub>Installed servo marked LFD-06.</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center"><img src="images/pca9685-driver-front.jpg" alt="PCA9685 servo driver HAT component side" width="360"><br><sub>PCA9685 servo driver HAT, component side.</sub></td>
+    <td align="center"><img src="images/pca9685-driver-back.jpg" alt="PCA9685 servo driver HAT reverse side" width="360"><br><sub>PCA9685 servo driver HAT, reverse side.</sub></td>
+  </tr>
+</table>
+
+The photographs identify the hardware used in this build; they do not add electrical or servo specifications beyond the documented configuration below.
+
 ## PCA9685 signal control
 
 The Raspberry Pi controls the PCA9685 over I2C bus 1 using `SDA` and `SCL`; the controller is addressed at `0x40`. The PCA9685 converts those commands into six independent 50 Hz PWM control signals on channels 0–5. Each servo receives its position command from its channel's signal pin while drawing motor power from the separate external servo PSU.

@@ -4,6 +4,12 @@
 
 The controller captures frames from a USB V4L2 camera, runs OpenCV's person detector, selects and predicts a target, and builds an annotated preview. The displayed/streamed frame is horizontally mirrored; tracking math uses the original frame.
 
+<p align="center">
+  <img src="images/tracking-display.jpg" alt="Framebuffer display showing the tracking overlay" width="520">
+</p>
+
+<p align="center"><em>Local display showing the rendered tracking overlay. People in the captured scene are privacy-redacted.</em></p>
+
 ## Camera requirements
 
 - Linux UVC/V4L2-compatible USB camera exposed as a capture-capable `/dev/videoN` device

@@ -28,6 +28,16 @@ Thumbs.db
 *.jpeg
 *.png
 
+# Published project documentation photos (all other images remain ignored)
+!docs/images/
+!docs/images/robot-arm-setup.jpg
+!docs/images/tracking-display.jpg
+!docs/images/electronics-installed.jpg
+!docs/images/hiwonder-servos.jpg
+!docs/images/lfd06-servo.jpg
+!docs/images/pca9685-driver-front.jpg
+!docs/images/pca9685-driver-back.jpg
+
 # Local configuration and secrets
 .env
 .env.*

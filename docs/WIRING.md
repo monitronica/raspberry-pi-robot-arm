@@ -3,6 +3,23 @@
 > [!CAUTION]
 > Disconnect servo power while wiring. Verify polarity with the documentation for your exact PCA9685 board and power supply; clone boards do not always use identical connector layouts.
 
+## Build reference photos
+
+<p align="center">
+  <img src="images/electronics-installed.jpg" alt="Electronics installed beside the robot-arm base" width="720">
+</p>
+
+<p align="center"><em>Reference photo of electronics installed at the arm base. This is not an electrical schematic and must not be used to infer hidden connections or polarity.</em></p>
+
+<table>
+  <tr>
+    <td align="center"><img src="images/pca9685-driver-front.jpg" alt="PCA9685 servo driver HAT component side" width="360"><br><sub>Board component side.</sub></td>
+    <td align="center"><img src="images/pca9685-driver-back.jpg" alt="PCA9685 servo driver HAT reverse side" width="360"><br><sub>Board reverse side.</sub></td>
+  </tr>
+</table>
+
+These board photographs are orientation references only. Follow the printed labels, the exact board revision's documentation, and the verified power-isolation arrangement described below.
+
 ## Logical connections
 
 | Raspberry Pi 5 | PCA9685 | Notes |

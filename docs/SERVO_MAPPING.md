@@ -2,6 +2,15 @@
 
 Pulse widths in this project are microseconds at 50 Hz. They are installation-specific positions, not universal angles.
 
+<table>
+  <tr>
+    <td align="center"><img src="images/hiwonder-servos.jpg" alt="Installed Hiwonder servos and arm joints" width="360"><br><sub>Installed arm joints and Hiwonder servos.</sub></td>
+    <td align="center"><img src="images/lfd06-servo.jpg" alt="Installed servo marked LFD-06" width="360"><br><sub>Installed servo marked LFD-06.</sub></td>
+  </tr>
+</table>
+
+These photos are mechanical references only. They do not establish channel identity, pulse limits, direction, or safe travel; use the verified mapping and limits below.
+
 ## Current channel map
 
 | Channel | Role | Home/center used by main controller | Main-controller software limits |

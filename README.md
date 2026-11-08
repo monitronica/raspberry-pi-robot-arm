@@ -7,6 +7,28 @@ A Raspberry Pi 5-controlled Hiwonder/LeArm robotic arm with camera-based person 
 
 This repository preserves the working controller plus calibration and experimental scripts. Many scripts can move real hardware. Read [SAFETY.md](docs/SAFETY.md) and [SERVO_MAPPING.md](docs/SERVO_MAPPING.md) before running anything.
 
+## Project gallery
+
+<p align="center">
+  <img src="docs/images/robot-arm-setup.jpg" alt="Raspberry Pi robot-arm project setup" width="760">
+</p>
+
+<p align="center"><em>Physical robot-arm setup with camera and local display. Screen content and bystanders are privacy-redacted.</em></p>
+
+<p align="center">
+  <img src="docs/images/tracking-display.jpg" alt="Local tracking display with tracking overlay" width="480">
+</p>
+
+<p align="center"><em>Local display showing the tracking overlay. People in the camera image are privacy-redacted.</em></p>
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/images/electronics-installed.jpg" alt="Electronics installed at the robot-arm base" width="250"><br><sub>Installed electronics</sub></td>
+    <td align="center"><img src="docs/images/hiwonder-servos.jpg" alt="Hiwonder servos installed in the arm" width="250"><br><sub>Installed Hiwonder servos</sub></td>
+    <td align="center"><img src="docs/images/pca9685-driver-front.jpg" alt="PCA9685 servo driver HAT front" width="250"><br><sub>PCA9685 driver HAT</sub></td>
+  </tr>
+</table>
+
 ## Architecture
 
 ```mermaid
