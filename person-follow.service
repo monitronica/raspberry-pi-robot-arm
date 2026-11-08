@@ -1,0 +1,20 @@
+[Unit]
+Description=Person follow camera controller
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=robota
+WorkingDirectory=/home/robota/robot-arm
+ExecStart=/home/robota/robot-arm/start_person_follow.sh
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGINT
+TimeoutStopSec=20
+StandardOutput=journal
+StandardError=journal
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

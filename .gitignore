@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs, captures, and local runtime files
+*.log
+*.log.*
+*.pid
+*.tmp
+*.bak
+*.swp
+*.mp4
+*.avi
+*.mjpg
+*.jpg
+*.jpeg
+*.png
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+known_hosts
+authorized_keys
+wpa_supplicant.conf
+secrets.*
+credentials.*
+
+# Controller/calibration output
+*_debug.txt
+*_debug.log
+*_events.txt
+*_events.log
+calibration-results/
+
