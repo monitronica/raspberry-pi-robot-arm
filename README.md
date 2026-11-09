@@ -104,6 +104,14 @@ printf 'HOME\n' | .venv/bin/python person_follow_camera.py \
 
 Open `http://<raspberry-pi-hostname>:8080/` for the optional MJPEG view. Do not publish this unauthenticated stream to the internet.
 
+## Project history
+
+The Raspberry Pi rebuild took place during [Circuit Control](https://circuit-control.de/?lang=en) in Dresden, a DIY electronics, soldering, and maker festival. That setting formed part of the context in which the robot's old controller was replaced and the existing machine was given a new control system. The project is an exercise in reuse, repair, and technological afterlife: **Keep the body, replace the brain, and see what the machine can become next.**
+
+The current Raspberry Pi control system is a working stage in that process, not the intended final interface. Future directions could include [ROS or ROS 2](https://www.ros.org/) integration, a custom control interface, browser-based control, OSC or other network interfaces for performance, interfaces designed for performers or workshop participants, and modular control that lets the same physical robot serve different projects. ROS integration does not currently exist; for artistic and performance contexts, a purpose-built interface may ultimately be more appropriate.
+
+See [Project history and future directions](docs/HISTORY.md) for the longer account.
+
 ## Documentation
 
 - [Installation](docs/INSTALLATION.md)
@@ -115,5 +123,11 @@ Open `http://<raspberry-pi-hostname>:8080/` for the optional MJPEG view. Do not 
 - [systemd autostart](docs/AUTOSTART.md)
 - [Safety](docs/SAFETY.md)
 - [Experiments](docs/EXPERIMENTS.md)
+- [Project history and future directions](docs/HISTORY.md)
+
+## References
+
+- [Circuit Control](https://circuit-control.de/?lang=en)
+- [ROS: Robot Operating System](https://www.ros.org/)
 
 
