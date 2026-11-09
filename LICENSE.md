@@ -1,12 +1,12 @@
 # Creative Commons Attribution 4.0 International
 
-Except where otherwise noted, the original documentation, photographs, diagrams, and other creative materials in this repository authored by Monika Pocrnjić are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+Except where otherwise noted, the original documentation, photographs, diagrams, and other creative materials in this repository authored by Monitronica are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 Under CC BY 4.0, you may share and adapt the covered material for any purpose, including commercially, provided that you give appropriate credit, link to the license, and indicate whether changes were made. The complete license terms are available in the [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
 Suggested attribution:
 
-> Material by Monika Pocrnjić, licensed under CC BY 4.0. Changes, if any, are indicated.
+> Material by Monitronica, licensed under CC BY 4.0. Changes, if any, are indicated.
 
 ## Third-party material
 

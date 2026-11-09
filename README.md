@@ -137,7 +137,7 @@ Open `http://<raspberry-pi-hostname>:8080/` for the optional MJPEG view. Do not 
 
 ## License
 
-Monika Pocrnjić's original documentation, photographs, diagrams, and other creative materials in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md), except where otherwise noted. Third-party material retains its own copyright and licensing status. In particular, `docs/images/apofenija-performance-gregor-salobir.jpg` is a photograph by Gregor Salobir, used with permission, and is not offered under CC BY 4.0 by this repository.
+Monitronica's original documentation, photographs, diagrams, and other creative materials in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md), except where otherwise noted. Third-party material retains its own copyright and licensing status. In particular, `docs/images/apofenija-performance-gregor-salobir.jpg` is a photograph by Gregor Salobir, used with permission, and is not offered under CC BY 4.0 by this repository.
 
 Software and source code are outside the scope of this Creative Commons license unless a separate software license explicitly states otherwise. Third-party software and dependencies retain their respective licenses.
 
