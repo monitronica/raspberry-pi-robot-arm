@@ -7,6 +7,14 @@ A Raspberry Pi 5-controlled Hiwonder/LeArm robotic arm with camera-based person 
 
 This repository preserves the working controller plus calibration and experimental scripts. Many scripts can move real hardware. Read [SAFETY.md](docs/SAFETY.md) and [SERVO_MAPPING.md](docs/SERVO_MAPPING.md) before running anything.
 
+## Project lineage
+
+**Apofenija/1 → Digital on Stage / KIBLA → controller failure → Circuit Control rebuild → Raspberry Pi / OpenCV experiments → possible ROS or custom interfaces**
+
+This sequence traces several lives of the same machine, from its earlier artistic contexts through failure, repair, and renewed experimentation. The technical rebuild is therefore also part of an artistic and ethical practice centered on reuse, adaptation, and technological afterlives.
+
+Rather than discarding the robot when its controller failed, the project treats its existing body as a platform for new relationships, interfaces, and works. **Keep the body, replace the brain, and see what the machine can become next.**
+
 ## Project gallery
 
 <p align="center">

@@ -1,5 +1,13 @@
 # Project history
 
+## Lineage summary
+
+**Apofenija/1 → Digital on Stage / KIBLA → controller failure → Circuit Control rebuild → Raspberry Pi / OpenCV experiments → possible ROS or custom interfaces**
+
+This sequence records several lives of the same machine. It places the technical rebuild within an artistic and ethical context shaped by reuse, repair, adaptation, and technological afterlives.
+
+The robot's history is not a series of disposable versions but a continuing transformation of one physical object through different contexts, failures, control systems, and possibilities. **Keep the body, replace the brain, and see what the machine can become next.**
+
 ## The Raspberry Pi rebuild
 
 The robot's Raspberry Pi rebuild happened during [Circuit Control](https://circuit-control.de/?lang=en) in Dresden. Circuit Control is a DIY electronics, soldering, and maker festival. This was more than a location in the project's chronology: the festival's hands-on setting was part of the context in which the old controller was replaced and the robot was given a new control system.
