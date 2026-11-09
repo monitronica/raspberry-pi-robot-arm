@@ -7,13 +7,23 @@ A Raspberry Pi 5-controlled Hiwonder/LeArm robotic arm with camera-based person 
 
 This repository preserves the working controller plus calibration and experimental scripts. Many scripts can move real hardware. Read [SAFETY.md](docs/SAFETY.md) and [SERVO_MAPPING.md](docs/SERVO_MAPPING.md) before running anything.
 
-## Project lineage
+## A Second Life for a Performing Robot
+
+This robotic arm did not begin as a Raspberry Pi project. Its first life was on stage in [*Apofenija/1*](https://www.melara.si/apofenija-1/), a performance by Nina Ramšak Marković and Varja Hrvatin that treated robotic and technological entities as performers in their own right. I worked on the production as a technical co-author together with Staš Vrenko, and this arm was one of its machines.
+
+<p align="center">
+  <img src="docs/images/apofenija-performance-gregor-salobir.jpg" alt="The robotic arm performing in Apofenija/1" width="760">
+</p>
+
+<p align="center"><em>The robotic arm in its earlier life as a performer in <a href="https://www.melara.si/apofenija-1/">Apofenija/1</a>. Photo: Gregor Salobir — used with permission.</em></p>
+
+After the performance was retired, the arm was reused through Digital on Stage activities at KIBLA as a hands-on medium for exploring robotics in theatrical and performing-arts contexts. When its original controller board eventually died, I kept its "guts and muscles"—the mechanics, servos, wiring, and accumulated physical history—and replaced its brain during [Circuit Control](https://circuit-control.de/?lang=en) in Dresden. A Raspberry Pi 5 now supports computer-vision, tracking, streaming, autonomous-movement, interaction, and control experiments.
 
 **Apofenija/1 → Digital on Stage / KIBLA → controller failure → Circuit Control rebuild → Raspberry Pi / OpenCV experiments → possible ROS or custom interfaces**
 
-This sequence traces several lives of the same machine, from its earlier artistic contexts through failure, repair, and renewed experimentation. The technical rebuild is therefore also part of an artistic and ethical practice centered on reuse, adaptation, and technological afterlives.
+The project is not only about making an old robotic arm move again. It is an experiment in reuse, repair, adaptation, and technological afterlives: allowing one machine to move from performer, to workshop tool, to experimental autonomous robot without hiding its scratches, old servos, improvised wiring, obsolete components, repairs, or modifications. **Keep the body, replace the brain, and see what the machine can become next.**
 
-Rather than discarding the robot when its controller failed, the project treats its existing body as a platform for new relationships, interfaces, and works. **Keep the body, replace the brain, and see what the machine can become next.**
+The Raspberry Pi rebuild is not intended as a final form. Future work may separate the physical control layer from interfaces such as ROS or ROS 2, a custom browser interface, OSC or network control, tools for performers and workshop participants, and computer-vision-driven behaviours. See [the full project history](docs/HISTORY.md).
 
 ## Project gallery
 
@@ -112,14 +122,6 @@ printf 'HOME\n' | .venv/bin/python person_follow_camera.py \
 
 Open `http://<raspberry-pi-hostname>:8080/` for the optional MJPEG view. Do not publish this unauthenticated stream to the internet.
 
-## Project history
-
-The Raspberry Pi rebuild took place during [Circuit Control](https://circuit-control.de/?lang=en) in Dresden, a DIY electronics, soldering, and maker festival. That setting formed part of the context in which the robot's old controller was replaced and the existing machine was given a new control system. The project is an exercise in reuse, repair, and technological afterlife: **Keep the body, replace the brain, and see what the machine can become next.**
-
-The current Raspberry Pi control system is a working stage in that process, not the intended final interface. Future directions could include [ROS or ROS 2](https://www.ros.org/) integration, a custom control interface, browser-based control, OSC or other network interfaces for performance, interfaces designed for performers or workshop participants, and modular control that lets the same physical robot serve different projects. ROS integration does not currently exist; for artistic and performance contexts, a purpose-built interface may ultimately be more appropriate.
-
-See [Project history and future directions](docs/HISTORY.md) for the longer account.
-
 ## Documentation
 
 - [Installation](docs/INSTALLATION.md)
@@ -133,8 +135,16 @@ See [Project history and future directions](docs/HISTORY.md) for the longer acco
 - [Experiments](docs/EXPERIMENTS.md)
 - [Project history and future directions](docs/HISTORY.md)
 
+## License
+
+Monika Pocrnjić's original documentation, photographs, diagrams, and other creative materials in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md), except where otherwise noted. Third-party material retains its own copyright and licensing status. In particular, `docs/images/apofenija-performance-gregor-salobir.jpg` is a photograph by Gregor Salobir, used with permission, and is not offered under CC BY 4.0 by this repository.
+
+Software and source code are outside the scope of this Creative Commons license unless a separate software license explicitly states otherwise. Third-party software and dependencies retain their respective licenses.
+
 ## References
 
+- [*Apofenija/1* — Zavod Melara](https://www.melara.si/apofenija-1/)
+- [Digital on Stage](https://digitalonstage.eu/)
 - [Circuit Control](https://circuit-control.de/?lang=en)
 - [ROS: Robot Operating System](https://www.ros.org/)
 

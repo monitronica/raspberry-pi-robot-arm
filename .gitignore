@@ -37,6 +37,7 @@ Thumbs.db
 !docs/images/lfd06-servo.jpg
 !docs/images/pca9685-driver-front.jpg
 !docs/images/pca9685-driver-back.jpg
+!docs/images/apofenija-performance-gregor-salobir.jpg
 
 # Local configuration and secrets
 .env
